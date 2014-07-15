@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F60FA3CC-CAF0-40B0-8312-D63794E522AB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\center.aspx" />
+    <Content Include="admin\css\image1.gif" />
+    <Content Include="admin\css\image2.gif" />
+    <Content Include="admin\css\jcrop.gif" />
+    <Content Include="admin\css\jquery.jcrop.css" />
+    <Content Include="admin\css\meneame.jpg" />
+    <Content Include="admin\css\pagination.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\css\validate.css" />
+    <Content Include="admin\css\valid_icons.png" />
+    <Content Include="admin\Default.aspx" />
+    <Content Include="admin\index.aspx" />
+    <Content Include="admin\scripts\calendar.js" />
+    <Content Include="admin\scripts\datepicker\calendar.js" />
+    <Content Include="admin\scripts\datepicker\lang\en.js" />
+    <Content Include="admin\scripts\datepicker\lang\zh-cn.js" />
+    <Content Include="admin\scripts\datepicker\lang\zh-tw.js" />
+    <Content Include="admin\scripts\datepicker\skin\datePicker.gif" />
+    <Content Include="admin\scripts\datepicker\skin\default\datepicker.css" />
+    <Content Include="admin\scripts\datepicker\skin\default\img.gif" />
+    <Content Include="admin\scripts\datepicker\skin\WdatePicker.css" />
+    <Content Include="admin\scripts\datepicker\skin\whyGreen\bg.jpg" />
+    <Content Include="admin\scripts\datepicker\skin\whyGreen\datepicker.css" />
+    <Content Include="admin\scripts\datepicker\skin\whyGreen\img.gif" />
+    <Content Include="admin\scripts\datepicker\WdatePicker.js" />
+    <Content Include="admin\scripts\jquery\jquery-1.10.2.min.js" />
+    <Content Include="admin\scripts\jquery\jquery.form.min.js" />
+    <Content Include="admin\scripts\jquery\jquery.jcrop.min.js" />
+    <Content Include="admin\scripts\jquery\jquery.jqzoom.js" />
+    <Content Include="admin\scripts\jquery\jquery.KinSlideshow-1.2.1.min.js" />
+    <Content Include="admin\scripts\jquery\jquery.lazyload.min.js" />
+    <Content Include="admin\scripts\jquery\jquery.nicescroll.js" />
+    <Content Include="admin\scripts\jquery\jquery.pagination.js" />
+    <Content Include="admin\scripts\jquery\PCASClass.js" />
+    <Content Include="admin\scripts\jquery\Validform_v5.3.2_min.js" />
+    <Content Include="admin\scripts\lhgdialog\lhgdialog.js" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\blue_s.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\blue_s2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\blue_titbtn.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_b.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_l.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_lb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_lt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_lt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_r.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_rb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_rt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_rt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_t.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\blue\ie6\ui_t2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\chrome.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\chrome\chrome_s.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\chrome\chrome_s2.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\chrome\chrome_s3.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\default.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\discuz.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\iblack_s.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\iblack_s2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_b.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_l.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_lb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_lt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_lt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_r.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_rb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_rt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_rt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_t.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblack\ie6\ui_t2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\iblue_s.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\iblue_s2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_b.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_l.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_lb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_lt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_lt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_r.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_rb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_rt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_rt2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_t.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\iblue\ie6\ui_t2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\32X32\fail.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\32X32\hits.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\32X32\i.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\32X32\succ.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\alert.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\confirm.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\discuz_bg.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\error.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\face-sad.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\face-smile.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\gb_tip_layer.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\gb_tip_layer_ie6.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\lhgcore.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\loading.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\prompt.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\success.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\icons\tips.gif" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\idialog_s.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\idialog_s2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_b.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_close.hover.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_close.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_l.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_lb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_lt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_r.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_rb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_rt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\idialog\ie6\ui_t.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_b.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_l.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_lb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_lt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_r.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_rb.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_rt.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\ie6\ui_t.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\igreen_s.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\igreen\igreen_s2.png" />
+    <Content Include="admin\scripts\lhgdialog\skins\jtop.css" />
+    <Content Include="admin\scripts\lhgdialog\skins\mac.css" />
+    <Content Include="admin\scripts\swfupload\swfupload.handlers.js" />
+    <Content Include="admin\scripts\swfupload\swfupload.js" />
+    <Content Include="admin\scripts\swfupload\swfupload.queue.js" />
+    <Content Include="admin\scripts\swfupload\swfupload.swf" />
+    <Content Include="Default.aspx" />
+    <Content Include="js\avatar.js" />
+    <Content Include="js\base.js" />
+    <Content Include="js\cart.js" />
+    <Content Include="js\layout.js" />
+    <Content Include="js\login_validate.js" />
+    <Content Include="js\picture.js" />
+    <Content Include="js\pinyin.js" />
+    <Content Include="js\register_validate.js" />
+    <Content Include="js\slide.js" />
+    <Content Include="skin\base.css" />
+    <Content Include="skin\default\icon_onload.gif" />
+    <Content Include="skin\default\icon_tips.png" />
+    <Content Include="skin\default\ie_update.jpg" />
+    <Content Include="skin\default\loadimg.gif" />
+    <Content Include="skin\default\login_logo.png" />
+    <Content Include="skin\default\login_tit.png" />
+    <Content Include="skin\default\logo.png" />
+    <Content Include="skin\default\order_speed.gif" />
+    <Content Include="skin\default\skin_icons.png" />
+    <Content Include="skin\default\style.css" />
+    <Content Include="skin\default\valid_icons.png" />
+    <Content Include="skin\layout.css" />
+    <Content Include="user\css\image1.gif" />
+    <Content Include="user\css\image2.gif" />
+    <Content Include="user\css\jcrop.gif" />
+    <Content Include="user\css\jquery.jcrop.css" />
+    <Content Include="user\css\meneame.jpg" />
+    <Content Include="user\css\pagination.css" />
+    <Content Include="user\css\style.css" />
+    <Content Include="user\css\validate.css" />
+    <Content Include="user\css\valid_icons.png" />
+    <Content Include="user\register.aspx" />
+    <Content Include="user\scripts\calendar.js" />
+    <Content Include="user\scripts\datepicker\calendar.js" />
+    <Content Include="user\scripts\datepicker\lang\en.js" />
+    <Content Include="user\scripts\datepicker\lang\zh-cn.js" />
+    <Content Include="user\scripts\datepicker\lang\zh-tw.js" />
+    <Content Include="user\scripts\datepicker\skin\datePicker.gif" />
+    <Content Include="user\scripts\datepicker\skin\default\datepicker.css" />
+    <Content Include="user\scripts\datepicker\skin\default\img.gif" />
+    <Content Include="user\scripts\datepicker\skin\WdatePicker.css" />
+    <Content Include="user\scripts\datepicker\skin\whyGreen\bg.jpg" />
+    <Content Include="user\scripts\datepicker\skin\whyGreen\datepicker.css" />
+    <Content Include="user\scripts\datepicker\skin\whyGreen\img.gif" />
+    <Content Include="user\scripts\datepicker\WdatePicker.js" />
+    <Content Include="user\scripts\jquery\jquery-1.10.2.min.js" />
+    <Content Include="user\scripts\jquery\jquery.form.min.js" />
+    <Content Include="user\scripts\jquery\jquery.jcrop.min.js" />
+    <Content Include="user\scripts\jquery\jquery.jqzoom.js" />
+    <Content Include="user\scripts\jquery\jquery.KinSlideshow-1.2.1.min.js" />
+    <Content Include="user\scripts\jquery\jquery.lazyload.min.js" />
+    <Content Include="user\scripts\jquery\jquery.nicescroll.js" />
+    <Content Include="user\scripts\jquery\jquery.pagination.js" />
+    <Content Include="user\scripts\jquery\PCASClass.js" />
+    <Content Include="user\scripts\jquery\Validform_v5.3.2_min.js" />
+    <Content Include="user\scripts\lhgdialog\lhgdialog.js" />
+    <Content Include="user\scripts\lhgdialog\skins\blue.css" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\blue_s.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\blue_s2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\blue_titbtn.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_b.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_l.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_lb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_lt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_lt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_r.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_rb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_rt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_rt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_t.png" />
+    <Content Include="user\scripts\lhgdialog\skins\blue\ie6\ui_t2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\chrome.css" />
+    <Content Include="user\scripts\lhgdialog\skins\chrome\chrome_s.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\chrome\chrome_s2.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\chrome\chrome_s3.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\default.css" />
+    <Content Include="user\scripts\lhgdialog\skins\discuz.css" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack.css" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\iblack_s.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\iblack_s2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_b.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_l.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_lb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_lt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_lt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_r.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_rb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_rt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_rt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_t.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblack\ie6\ui_t2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue.css" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\iblue_s.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\iblue_s2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_b.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_l.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_lb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_lt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_lt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_r.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_rb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_rt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_rt2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_t.png" />
+    <Content Include="user\scripts\lhgdialog\skins\iblue\ie6\ui_t2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\32X32\fail.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\32X32\hits.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\32X32\i.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\32X32\succ.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\alert.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\confirm.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\discuz_bg.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\error.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\face-sad.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\face-smile.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\gb_tip_layer.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\gb_tip_layer_ie6.png" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\lhgcore.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\loading.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\prompt.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\success.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\icons\tips.gif" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog.css" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\idialog_s.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\idialog_s2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_b.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_close.hover.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_close.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_l.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_lb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_lt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_r.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_rb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_rt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\idialog\ie6\ui_t.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen.css" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_b.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_l.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_lb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_lt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_r.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_rb.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_rt.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\ie6\ui_t.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\igreen_s.png" />
+    <Content Include="user\scripts\lhgdialog\skins\igreen\igreen_s2.png" />
+    <Content Include="user\scripts\lhgdialog\skins\jtop.css" />
+    <Content Include="user\scripts\lhgdialog\skins\mac.css" />
+    <Content Include="user\scripts\swfupload\swfupload.handlers.js" />
+    <Content Include="user\scripts\swfupload\swfupload.js" />
+    <Content Include="user\scripts\swfupload\swfupload.queue.js" />
+    <Content Include="user\scripts\swfupload\swfupload.swf" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\center.aspx.cs">
+      <DependentUpon>center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\center.aspx.designer.cs">
+      <DependentUpon>center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\submit_ajax.ashx.cs">
+      <DependentUpon>submit_ajax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="user\verify_code.ashx.cs">
+      <DependentUpon>verify_code.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{571F4DAD-7F8B-4A14-8DCB-1923693B53A4}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{F0EDEC70-EB7B-4F03-AD9B-90C7C1183E54}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{D43F9351-5C6A-40AF-9E6D-63173A631D03}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{133167A0-F781-4430-9DDA-FB82C1DAB7E2}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="user\submit_ajax.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="user\verify_code.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16794</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

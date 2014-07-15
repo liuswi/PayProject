@@ -1,0 +1,15 @@
+D:\visual studio 2010\Projects\PayProject\Web\bin\Web.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\Web.pdb
+D:\visual studio 2010\Projects\PayProject\Web\bin\BLL.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\DBUtility.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\Model.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\DAL.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\BLL.pdb
+D:\visual studio 2010\Projects\PayProject\Web\bin\DBUtility.pdb
+D:\visual studio 2010\Projects\PayProject\Web\bin\Model.pdb
+D:\visual studio 2010\Projects\PayProject\Web\bin\DAL.pdb
+D:\visual studio 2010\Projects\PayProject\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+D:\visual studio 2010\Projects\PayProject\Web\obj\Debug\Web.dll
+D:\visual studio 2010\Projects\PayProject\Web\obj\Debug\Web.pdb
+D:\visual studio 2010\Projects\PayProject\Web\bin\Common.dll
+D:\visual studio 2010\Projects\PayProject\Web\bin\Common.pdb

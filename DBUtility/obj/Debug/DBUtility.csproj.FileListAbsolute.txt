@@ -1,0 +1,7 @@
+D:\visual studio 2010\Projects\PayProject\DBUtility\bin\Debug\DBUtility.dll
+D:\visual studio 2010\Projects\PayProject\DBUtility\bin\Debug\DBUtility.pdb
+D:\visual studio 2010\Projects\PayProject\DBUtility\obj\Debug\DBUtility.dll
+D:\visual studio 2010\Projects\PayProject\DBUtility\obj\Debug\DBUtility.pdb
+D:\visual studio 2010\Projects\PayProject\DBUtility\bin\Debug\Common.dll
+D:\visual studio 2010\Projects\PayProject\DBUtility\bin\Debug\Common.pdb
+D:\visual studio 2010\Projects\PayProject\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

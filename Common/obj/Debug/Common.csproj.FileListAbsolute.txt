@@ -1,0 +1,4 @@
+D:\visual studio 2010\Projects\PayProject\Common\bin\Debug\Common.dll
+D:\visual studio 2010\Projects\PayProject\Common\bin\Debug\Common.pdb
+D:\visual studio 2010\Projects\PayProject\Common\obj\Debug\Common.dll
+D:\visual studio 2010\Projects\PayProject\Common\obj\Debug\Common.pdb
